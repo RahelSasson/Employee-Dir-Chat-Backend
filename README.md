@@ -9,8 +9,8 @@ It supports real-time 1:1 chats between users, with persistent message history, 
 ## Features
 
 - User registration and login with hashed passwords (bcrypt)
-- JWT-based authentication
-- Real-time messaging via WebSockets (Socket.IO)
+- JWT based authentication
+- Real time messaging via WebSockets (Socket.IO)
 - Typing indicators
 - Message history saved to MongoDB
 - REST endpoints for message retrieval and storage
@@ -38,9 +38,9 @@ MongoDB (localhost)
 
 ```
 
-## Authentication 
+# Authentication 
 
-# Sign Up 
+## Sign Up 
 Endpoint: POST /employees
 ```
 [{"_id": "685362c8106af0075b57af7a"
@@ -49,7 +49,7 @@ Endpoint: POST /employees
 Jacobs", "email": "Abby@example.com", "department": "Analytics", "role": "Software Engineer", "password" : "$2b$10$NjOu0vc7uQF4zINm5gkaWOyKP58XUUUIeF×CoUGJe.El1moz8K0Mi" }
 ```
 
-# Login
+## Login
 Endpoint: POST /login 
 ```
 {
@@ -58,9 +58,9 @@ Endpoint: POST /login
 }
 ```
 
-## Messasing 
+# Messasing 
 
-# Get Messages 
+## Get Messages 
 Endpoint: POST /messages 
 ```
 {
@@ -68,7 +68,7 @@ Endpoint: POST /messages
 }
 ```
 
-# Send Message 
+## Send Message 
 Endpoint: PUT /messages 
 ```
 {
@@ -81,9 +81,9 @@ Endpoint: PUT /messages
 }
 ```
 
-## MongoDB Schema 
+# MongoDB Schema 
 
-# /employees Collection 
+## /employees Collection 
 ```
 {
   "_id": ObjectId,
@@ -95,7 +95,7 @@ Endpoint: PUT /messages
 }
 ```
 
-# /convos Collection
+## /convos Collection
 ```
 {
   "_id": ObjectId,
