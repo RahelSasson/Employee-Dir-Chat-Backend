@@ -1,8 +1,8 @@
 # Real-Time Messaging Backend
 
-This is a lightweight messaging backend built with **Node.js**, **Express**, **Socket.IO**, and **MongoDB**. 
+Messaging backend built with **Node.js**, **Express**, **Socket.IO**, and **MongoDB**. 
 
-It supports real-time 1:1 chats between users, with persistent message history, authentication via JWT, and typing indicators.
+It supports real time chats between users, with persistent message history, authentication via JWT, and typing indicators.
 
 
 
